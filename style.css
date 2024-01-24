@@ -25,13 +25,16 @@ body{
 }
 
 .container {
-    padding: 10px 5%;
+    padding: 15px 5%;
 }
 
 /* Creates space between the image and the navbar */
 nav {
    display: flex;
-   
+   position: fixed;
+   background-color: #080808;
+   width: 100%;
+   padding: 10px 0 0 0;
    align-items: center;
    justify-content: space-between;
    flex-wrap: wrap; 
