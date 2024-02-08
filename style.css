@@ -143,12 +143,20 @@ nav ul li a:hover::after{
     
     padding-left: 0;
     
+    
 }
 .tab-contents ul li{
    
    list-style: none;
+
    display: inline-block;
-   margin: 2px;
+   margin: 10px 0;
+}
+
+.tab-contents ul li span{
+    color: #b54769;
+    font-size: 18px;
+    
 }
 
 .tab-contents ul li::before{
